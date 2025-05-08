@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "URL Detector",
+  "name": "Copy tab url to airtable",
   "version": "1.0",
-  "description": "Minimalist Chrome extension to display and copy the current tab's URL and overwrite the first Airtable record.",
+  "description": "Chrome extention that copy tab url to airtable.",
   "permissions": [
     "activeTab",
     "tabs",
