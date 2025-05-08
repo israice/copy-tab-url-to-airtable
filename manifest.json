@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "URL Detector",
+  "version": "1.0",
+  "description": "Minimalist Chrome extension to display and copy the current tab's URL and overwrite the first Airtable record.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.airtable.com/v0/app8EMe8KlU5dSbaS/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
